@@ -1,0 +1,24 @@
+[master 76301d3] new benchmarks
+ Committer: Bernardo Manfriani <berna@ct1pt-tnode009.hpc>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 10 files changed, 250 insertions(+), 200 deletions(-)
+ rewrite bycoreOb1Vad.csv (93%)
+ rewrite bycoreOb1tcp.csv (92%)
+ rewrite bycoreUcx.csv (90%)
+ rewrite bynodeOb1tcp.csv (92%)
+ rewrite bynodeUcx.csv (93%)
+ rewrite bysocketOb1Vader.csv (90%)
+ rewrite bysocketOb1tcp.csv (89%)
+ rewrite bysocketUcx.csv (90%)
+ create mode 100644 section2Script.sh.e36741
+ create mode 100644 section2Script.sh.o36741
