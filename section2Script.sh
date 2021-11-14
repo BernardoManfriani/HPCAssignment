@@ -31,9 +31,9 @@ mpirun -mca pml ob1 --mca btl self,tcp --report-bindings -np 2 --map-by core ./I
 mpirun -mca pml ucx  --report-bindings -np 2 --map-by core ./IMB-MPI1 PingPong 2> /dev/null | grep -v ^# | grep -v -e '^$' |  tr -s ' '| sed 's/^[ \t]+*//g' | sed 's/[ \t]+*/,/g' >bynode_ucx.csv 
 
 
-git add * 
+git rm section2Script.sh.*  
 
-git rm section2Script.sh.*
+git add * 
 
 git commit -m "new benchmarks" 
 
