@@ -33,6 +33,8 @@ mpirun -mca pml ucx  --report-bindings -np 2 --map-by core ./IMB-MPI1 PingPong 2
 
 git add * 
 
+git rm section2Script.sh.*
+
 git commit -m "new benchmarks" 
 
 git push 
