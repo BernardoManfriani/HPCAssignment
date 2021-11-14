@@ -18,7 +18,7 @@ mpirun -mca pml ob1 --mca btl self,vader --report-bindings -np 2 --map-by core .
 
 mpirun -mca pml ob1 --mca btl self,tcp --report-bindings -np 2 --map-by core ./IMB-MPI1 PingPong 2> /dev/null | grep -v ^# | grep -v -e '^$' |  tr -s ' '| sed 's/^[ \t]+*//g' | sed 's/[ \t]+*/,/g' >bycore_tcp.csv 
 
-mpirun -mca pml ucx --report-bindings -np 2 --map-by core ./IMB-MPI1 PingPong 2> /dev/null | grep -v ^# | grep -v -e '^$' |  tr -s ' '| sed 's/^[ \t]+*//g' | sed 's/[ \t]+*/,/g' >bycore_ucx.cvs 
+mpirun -mca pml ucx --report-bindings -np 2 --map-by core ./IMB-MPI1 PingPong 2> /dev/null | grep -v ^# | grep -v -e '^$' |  tr -s ' '| sed 's/^[ \t]+*//g' | sed 's/[ \t]+*/,/g' >bycore_ucx.csv
 
 mpirun -mca pml ob1 --mca btl self,tcp --report-bindings -np 2 --map-by socket ./IMB-MPI1 PingPong 2> /dev/null | grep -v ^# | grep -v -e '^$' |  tr -s ' '| sed 's/^[ \t]+*//g' | sed 's/[ \t]+*/,/g' >bysocket_tcp.csv 
 
@@ -30,14 +30,12 @@ mpirun -mca pml ob1 --mca btl self,tcp --report-bindings -np 2 --map-by core ./I
 
 mpirun -mca pml ucx  --report-bindings -np 2 --map-by core ./IMB-MPI1 PingPong 2> /dev/null | grep -v ^# | grep -v -e '^$' |  tr -s ' '| sed 's/^[ \t]+*//g' | sed 's/[ \t]+*/,/g' >bynode_ucx.csv 
 
-  
 
 git add * 
 
 git commit -m "new benchmarks" 
 
 git push 
-
   
 
 exit 
