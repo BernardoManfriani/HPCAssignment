@@ -10,7 +10,7 @@
 cd $PBS_O_WORKDIR 
 
 module load openmpi-4.1.1+gnu-9.3.0  
-module load intel 
+ 
 
 
 #OPENMPI
@@ -37,6 +37,8 @@ mpirun -mca pml ob1 --mca btl self,tcp --report-bindings -np 2 --map-by node ./I
 
 mpirun -mca pml ucx  --report-bindings -np 2 --map-by node ./IMB-MPI1 PingPong  -msglog 28 2> /dev/null | grep -v ^# | grep -v -e '^$' |  tr -s ' '| sed 's/^[ \t]+*//g' | sed 's/[ \t]+*/,/g' >bynodeUcxGPU.csv 
 
+
+module load intel
 
 #INTEL
 

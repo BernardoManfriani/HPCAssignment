@@ -1,0 +1,35 @@
+rm 'benchmarkGPU.sh.e38190'
+rm 'benchmarkGPU.sh.o38190'
+[master 72864c3] new benchmarks
+ Committer: Bernardo Manfriani <berna@ct1pg-gnode001.hpc>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 19 files changed, 275 insertions(+), 274 deletions(-)
+ delete mode 100644 benchmarkGPU.sh.o38190
+ rename benchmarkGPU.sh.e38190 => benchmarkThin.sh.e40459 (69%)
+ create mode 100644 benchmarkThin.sh.o40459
+ create mode 100644 bycoreIntelGPU.csv
+ create mode 100644 bycoreIntelShmGPU.csv
+ create mode 100644 bycoreIntelTcpGPU.csv
+ rewrite bycoreOb1VadGPU.csv (100%)
+ rewrite bycoreOb1tcpGPU.csv (100%)
+ rewrite bycoreUcxGPU.csv (100%)
+ create mode 100644 bynodeIntelIfinibandGPU.csv
+ create mode 100644 bynodeIntelTcpGPU.csv
+ rewrite bynodeOb1tcpGPU.csv (100%)
+ rewrite bynodeUcxGPU.csv (100%)
+ rewrite bysocketIntelGPU.csv (94%)
+ create mode 100644 bysocketIntelTcpGPU.csv
+ rewrite bysocketOb1VaderGPU.csv (100%)
+ rewrite bysocketOb1tcpGPU.csv (100%)
+ create mode 100644 bysocketShmGPU.csv
+ create mode 100644 bysocketUcxGPU.csv
