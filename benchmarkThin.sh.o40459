@@ -1,0 +1,23 @@
+[master 42d216b] new benchmarks
+ Committer: Bernardo Manfriani <berna@ct1pt-tnode009.hpc>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 11 files changed, 309 insertions(+), 2 deletions(-)
+ create mode 100755 IMB-MPI1_intel
+ create mode 100644 bycoreIntelShmTHIN.csv
+ create mode 100644 bycoreIntelTHIN.csv
+ create mode 100644 bycoreIntelTcpTHIN.csv
+ create mode 100644 bynodeIntelIfinibandTHIN.csv
+ create mode 100644 bynodeIntelTcpTHIN.csv
+ create mode 100644 bysocketIntelGPU.csv
+ create mode 100644 bysocketIntelTcpTHIN.csv
+ create mode 100644 bysocketShmTHIN.csv
