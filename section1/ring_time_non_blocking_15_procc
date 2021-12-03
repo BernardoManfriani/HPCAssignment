@@ -1,0 +1,45 @@
+I am process 8 and I have received 30 messages. My final messages have tag 80 and value 89 from left, -89 from right
+I am process 8 and I have received 30 messages. My final messages have tag 80 and value 89 from left, -89 from right
+I am process 12 and I have received 30 messages. My final messages have tag 120 and value 81 from left, -81 from right
+I am process 12 and I have received 30 messages. My final messages have tag 120 and value 81 from left, -81 from right
+I am process 4 and I have received 30 messages. My final messages have tag 40 and value 97 from left, -97 from right
+I am process 4 and I have received 30 messages. My final messages have tag 40 and value 97 from left, -97 from right
+I am process 5 and I have received 30 messages. My final messages have tag 50 and value 95 from left, -95 from right
+I am process 5 and I have received 30 messages. My final messages have tag 50 and value 95 from left, -95 from right
+I am process 0 and I have received 30 messages. My final messages have tag 0 and value 105 from left, -105 from right
+I am process 0 and I have received 30 messages. My final messages have tag 0 and value 105 from left, -105 from right
+I am process 13 and I have received 30 messages. My final messages have tag 130 and value 79 from left, -79 from right
+I am process 13 and I have received 30 messages. My final messages have tag 130 and value 79 from left, -79 from right
+I am process 2 and I have received 30 messages. My final messages have tag 20 and value 101 from left, -101 from right
+I am process 2 and I have received 30 messages. My final messages have tag 20 and value 101 from left, -101 from right
+I am process 6 and I have received 30 messages. My final messages have tag 60 and value 93 from left, -93 from right
+I am process 6 and I have received 30 messages. My final messages have tag 60 and value 93 from left, -93 from right
+I am process 10 and I have received 30 messages. My final messages have tag 100 and value 85 from left, -85 from right
+I am process 10 and I have received 30 messages. My final messages have tag 100 and value 85 from left, -85 from right
+I am process 1 and I have received 30 messages. My final messages have tag 10 and value 103 from left, -103 from right
+I am process 1 and I have received 30 messages. My final messages have tag 10 and value 103 from left, -103 from right
+I am process 14 and I have received 30 messages. My final messages have tag 140 and value 77 from left, -77 from right
+I am process 14 and I have received 30 messages. My final messages have tag 140 and value 77 from left, -77 from right
+I am process 11 and I have received 30 messages. My final messages have tag 110 and value 83 from left, -83 from right
+I am process 11 and I have received 30 messages. My final messages have tag 110 and value 83 from left, -83 from right
+I am process 3 and I have received 30 messages. My final messages have tag 30 and value 99 from left, -99 from right
+I am process 3 and I have received 30 messages. My final messages have tag 30 and value 99 from left, -99 from right
+I am process 9 and I have received 30 messages. My final messages have tag 90 and value 87 from left, -87 from right
+I am process 9 and I have received 30 messages. My final messages have tag 90 and value 87 from left, -87 from right
+I am process 7 and I have received 30 messages. My final messages have tag 70 and value 91 from left, -91 from right
+I am process 7 and I have received 30 messages. My final messages have tag 70 and value 91 from left, -91 from right
+#######Execution time 1.65063077
+#######Execution time 1.65063482
+#######Execution time 1.65064128
+#######Execution time 1.64960377
+#######Execution time 1.65061929
+#######Execution time 1.65063328
+#######Execution time 1.65063667
+#######Execution time 1.64960351
+#######Execution time 1.65063790
+#######Execution time 1.65063971
+#######Execution time 1.65063921
+#######Execution time 1.65062542
+#######Execution time 1.64960413
+#######Execution time 1.64960303
+#######Execution time 1.65065712

@@ -1,0 +1,6 @@
+I am process 0 and I have received 4 messages. My final messages have tag 0 and value 1 from left, -1 from right
+I am process 0 and I have received 4 messages. My final messages have tag 0 and value 1 from left, -1 from right
+I am process 1 and I have received 4 messages. My final messages have tag 10 and value -1 from left, 1 from right
+I am process 1 and I have received 4 messages. My final messages have tag 10 and value -1 from left, 1 from right
+#######Execution time 1.64718173
+#######Execution time 1.64706974

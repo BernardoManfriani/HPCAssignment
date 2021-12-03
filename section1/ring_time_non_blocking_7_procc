@@ -1,0 +1,21 @@
+I am process 2 and I have received 14 messages. My final messages have tag 20 and value 17 from left, -17 from right
+I am process 2 and I have received 14 messages. My final messages have tag 20 and value 17 from left, -17 from right
+I am process 1 and I have received 14 messages. My final messages have tag 10 and value 19 from left, -19 from right
+I am process 1 and I have received 14 messages. My final messages have tag 10 and value 19 from left, -19 from right
+I am process 0 and I have received 14 messages. My final messages have tag 0 and value 21 from left, -21 from right
+I am process 0 and I have received 14 messages. My final messages have tag 0 and value 21 from left, -21 from right
+I am process 5 and I have received 14 messages. My final messages have tag 50 and value 11 from left, -11 from right
+I am process 5 and I have received 14 messages. My final messages have tag 50 and value 11 from left, -11 from right
+I am process 4 and I have received 14 messages. My final messages have tag 40 and value 13 from left, -13 from right
+I am process 4 and I have received 14 messages. My final messages have tag 40 and value 13 from left, -13 from right
+I am process 3 and I have received 14 messages. My final messages have tag 30 and value 15 from left, -15 from right
+I am process 3 and I have received 14 messages. My final messages have tag 30 and value 15 from left, -15 from right
+I am process 6 and I have received 14 messages. My final messages have tag 60 and value 9 from left, -9 from right
+I am process 6 and I have received 14 messages. My final messages have tag 60 and value 9 from left, -9 from right
+#######Execution time 1.65116847
+#######Execution time 1.65119623
+#######Execution time 1.65115905
+#######Execution time 1.65119598
+#######Execution time 1.65118996
+#######Execution time 1.65118350
+#######Execution time 1.65119607

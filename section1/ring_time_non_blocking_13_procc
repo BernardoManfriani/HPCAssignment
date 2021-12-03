@@ -1,0 +1,39 @@
+I am process 1 and I have received 26 messages. My final messages have tag 10 and value 76 from left, -76 from right
+I am process 1 and I have received 26 messages. My final messages have tag 10 and value 76 from left, -76 from right
+I am process 9 and I have received 26 messages. My final messages have tag 90 and value 60 from left, -60 from right
+I am process 9 and I have received 26 messages. My final messages have tag 90 and value 60 from left, -60 from right
+I am process 7 and I have received 26 messages. My final messages have tag 70 and value 64 from left, -64 from right
+I am process 7 and I have received 26 messages. My final messages have tag 70 and value 64 from left, -64 from right
+I am process 2 and I have received 26 messages. My final messages have tag 20 and value 74 from left, -74 from right
+I am process 2 and I have received 26 messages. My final messages have tag 20 and value 74 from left, -74 from right
+I am process 4 and I have received 26 messages. My final messages have tag 40 and value 70 from left, -70 from right
+I am process 4 and I have received 26 messages. My final messages have tag 40 and value 70 from left, -70 from right
+I am process 12 and I have received 26 messages. My final messages have tag 120 and value 54 from left, -54 from right
+I am process 12 and I have received 26 messages. My final messages have tag 120 and value 54 from left, -54 from right
+I am process 5 and I have received 26 messages. My final messages have tag 50 and value 68 from left, -68 from right
+I am process 5 and I have received 26 messages. My final messages have tag 50 and value 68 from left, -68 from right
+I am process 11 and I have received 26 messages. My final messages have tag 110 and value 56 from left, -56 from right
+I am process 11 and I have received 26 messages. My final messages have tag 110 and value 56 from left, -56 from right
+I am process 6 and I have received 26 messages. My final messages have tag 60 and value 66 from left, -66 from right
+I am process 6 and I have received 26 messages. My final messages have tag 60 and value 66 from left, -66 from right
+I am process 10 and I have received 26 messages. My final messages have tag 100 and value 58 from left, -58 from right
+I am process 10 and I have received 26 messages. My final messages have tag 100 and value 58 from left, -58 from right
+I am process 8 and I have received 26 messages. My final messages have tag 80 and value 62 from left, -62 from right
+I am process 8 and I have received 26 messages. My final messages have tag 80 and value 62 from left, -62 from right
+I am process 0 and I have received 26 messages. My final messages have tag 0 and value 78 from left, -78 from right
+I am process 0 and I have received 26 messages. My final messages have tag 0 and value 78 from left, -78 from right
+I am process 3 and I have received 26 messages. My final messages have tag 30 and value 72 from left, -72 from right
+I am process 3 and I have received 26 messages. My final messages have tag 30 and value 72 from left, -72 from right
+#######Execution time 1.65198112
+#######Execution time 1.65306425
+#######Execution time 1.65310532
+#######Execution time 1.65175659
+#######Execution time 1.65175380
+#######Execution time 1.65198875
+#######Execution time 1.65199053
+#######Execution time 1.65202885
+#######Execution time 1.65202174
+#######Execution time 1.65198931
+#######Execution time 1.65174456
+#######Execution time 1.65174690
+#######Execution time 1.65306151
