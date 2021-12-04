@@ -1,123 +1,42 @@
-I am process 9 and I have received 82 messages. My final messages have tag 90 and value 802 from left, -802 from right
-I am process 25 and I have received 82 messages. My final messages have tag 250 and value 770 from left, -770 from right
-I am process 25 and I have received 82 messages. My final messages have tag 250 and value 770 from left, -770 from right
-I am process 9 and I have received 82 messages. My final messages have tag 90 and value 802 from left, -802 from right
-I am process 3 and I have received 82 messages. My final messages have tag 30 and value 814 from left, -814 from right
-I am process 3 and I have received 82 messages. My final messages have tag 30 and value 814 from left, -814 from right
-I am process 15 and I have received 82 messages. My final messages have tag 150 and value 790 from left, -790 from right
-I am process 15 and I have received 82 messages. My final messages have tag 150 and value 790 from left, -790 from right
-I am process 23 and I have received 82 messages. My final messages have tag 230 and value 774 from left, -774 from right
-I am process 23 and I have received 82 messages. My final messages have tag 230 and value 774 from left, -774 from right
-I am process 6 and I have received 82 messages. My final messages have tag 60 and value 808 from left, -808 from right
-I am process 6 and I have received 82 messages. My final messages have tag 60 and value 808 from left, -808 from right
-I am process 38 and I have received 82 messages. My final messages have tag 380 and value 744 from left, -744 from right
-I am process 38 and I have received 82 messages. My final messages have tag 380 and value 744 from left, -744 from right
-I am process 13 and I have received 82 messages. My final messages have tag 130 and value 794 from left, -794 from right
-I am process 13 and I have received 82 messages. My final messages have tag 130 and value 794 from left, -794 from right
-I am process 37 and I have received 82 messages. My final messages have tag 370 and value 746 from left, -746 from right
-I am process 37 and I have received 82 messages. My final messages have tag 370 and value 746 from left, -746 from right
-I am process 35 and I have received 82 messages. My final messages have tag 350 and value 750 from left, -750 from right
-I am process 35 and I have received 82 messages. My final messages have tag 350 and value 750 from left, -750 from right
-I am process 39 and I have received 82 messages. My final messages have tag 390 and value 742 from left, -742 from right
-I am process 39 and I have received 82 messages. My final messages have tag 390 and value 742 from left, -742 from right
-I am process 4 and I have received 82 messages. My final messages have tag 40 and value 812 from left, -812 from right
-I am process 4 and I have received 82 messages. My final messages have tag 40 and value 812 from left, -812 from right
-I am process 40 and I have received 82 messages. My final messages have tag 400 and value 740 from left, -740 from right
-I am process 40 and I have received 82 messages. My final messages have tag 400 and value 740 from left, -740 from right
-I am process 12 and I have received 82 messages. My final messages have tag 120 and value 796 from left, -796 from right
-I am process 12 and I have received 82 messages. My final messages have tag 120 and value 796 from left, -796 from right
-I am process 2 and I have received 82 messages. My final messages have tag 20 and value 816 from left, -816 from right
-I am process 2 and I have received 82 messages. My final messages have tag 20 and value 816 from left, -816 from right
-I am process 29 and I have received 82 messages. My final messages have tag 290 and value 762 from left, -762 from right
-I am process 29 and I have received 82 messages. My final messages have tag 290 and value 762 from left, -762 from right
-I am process 31 and I have received 82 messages. My final messages have tag 310 and value 758 from left, -758 from right
-I am process 31 and I have received 82 messages. My final messages have tag 310 and value 758 from left, -758 from right
-I am process 7 and I have received 82 messages. My final messages have tag 70 and value 806 from left, -806 from right
-I am process 7 and I have received 82 messages. My final messages have tag 70 and value 806 from left, -806 from right
-I am process 14 and I have received 82 messages. My final messages have tag 140 and value 792 from left, -792 from right
-I am process 14 and I have received 82 messages. My final messages have tag 140 and value 792 from left, -792 from right
-I am process 27 and I have received 82 messages. My final messages have tag 270 and value 766 from left, -766 from right
-I am process 27 and I have received 82 messages. My final messages have tag 270 and value 766 from left, -766 from right
-I am process 0 and I have received 82 messages. My final messages have tag 0 and value 820 from left, -820 from right
-I am process 0 and I have received 82 messages. My final messages have tag 0 and value 820 from left, -820 from right
-I am process 33 and I have received 82 messages. My final messages have tag 330 and value 754 from left, -754 from right
-I am process 33 and I have received 82 messages. My final messages have tag 330 and value 754 from left, -754 from right
-I am process 34 and I have received 82 messages. My final messages have tag 340 and value 752 from left, -752 from right
-I am process 34 and I have received 82 messages. My final messages have tag 340 and value 752 from left, -752 from right
-I am process 28 and I have received 82 messages. My final messages have tag 280 and value 764 from left, -764 from right
-I am process 28 and I have received 82 messages. My final messages have tag 280 and value 764 from left, -764 from right
-I am process 30 and I have received 82 messages. My final messages have tag 300 and value 760 from left, -760 from right
-I am process 30 and I have received 82 messages. My final messages have tag 300 and value 760 from left, -760 from right
-I am process 26 and I have received 82 messages. My final messages have tag 260 and value 768 from left, -768 from right
-I am process 26 and I have received 82 messages. My final messages have tag 260 and value 768 from left, -768 from right
-I am process 20 and I have received 82 messages. My final messages have tag 200 and value 780 from left, -780 from right
-I am process 20 and I have received 82 messages. My final messages have tag 200 and value 780 from left, -780 from right
-I am process 32 and I have received 82 messages. My final messages have tag 320 and value 756 from left, -756 from right
-I am process 32 and I have received 82 messages. My final messages have tag 320 and value 756 from left, -756 from right
-I am process 16 and I have received 82 messages. My final messages have tag 160 and value 788 from left, -788 from right
-I am process 16 and I have received 82 messages. My final messages have tag 160 and value 788 from left, -788 from right
-I am process 24 and I have received 82 messages. My final messages have tag 240 and value 772 from left, -772 from right
-I am process 24 and I have received 82 messages. My final messages have tag 240 and value 772 from left, -772 from right
-I am process 22 and I have received 82 messages. My final messages have tag 220 and value 776 from left, -776 from right
-I am process 22 and I have received 82 messages. My final messages have tag 220 and value 776 from left, -776 from right
-I am process 11 and I have received 82 messages. My final messages have tag 110 and value 798 from left, -798 from right
-I am process 11 and I have received 82 messages. My final messages have tag 110 and value 798 from left, -798 from right
-I am process 36 and I have received 82 messages. My final messages have tag 360 and value 748 from left, -748 from right
-I am process 36 and I have received 82 messages. My final messages have tag 360 and value 748 from left, -748 from right
-I am process 17 and I have received 82 messages. My final messages have tag 170 and value 786 from left, -786 from right
-I am process 19 and I have received 82 messages. My final messages have tag 190 and value 782 from left, -782 from right
-I am process 19 and I have received 82 messages. My final messages have tag 190 and value 782 from left, -782 from right
-I am process 1 and I have received 82 messages. My final messages have tag 10 and value 818 from left, -818 from right
-I am process 1 and I have received 82 messages. My final messages have tag 10 and value 818 from left, -818 from right
-I am process 17 and I have received 82 messages. My final messages have tag 170 and value 786 from left, -786 from right
-I am process 21 and I have received 82 messages. My final messages have tag 210 and value 778 from left, -778 from right
-I am process 21 and I have received 82 messages. My final messages have tag 210 and value 778 from left, -778 from right
-I am process 10 and I have received 82 messages. My final messages have tag 100 and value 800 from left, -800 from right
-I am process 10 and I have received 82 messages. My final messages have tag 100 and value 800 from left, -800 from right
-I am process 18 and I have received 82 messages. My final messages have tag 180 and value 784 from left, -784 from right
-I am process 18 and I have received 82 messages. My final messages have tag 180 and value 784 from left, -784 from right
-I am process 8 and I have received 82 messages. My final messages have tag 80 and value 804 from left, -804 from right
-I am process 8 and I have received 82 messages. My final messages have tag 80 and value 804 from left, -804 from right
-I am process 5 and I have received 82 messages. My final messages have tag 50 and value 810 from left, -810 from right
-I am process 5 and I have received 82 messages. My final messages have tag 50 and value 810 from left, -810 from right
-#######Execution time 1.70777886
-#######Execution time 1.70915103
-#######Execution time 1.70765590
-#######Execution time 1.70834022
-#######Execution time 1.70627751
-#######Execution time 1.70776383
-#######Execution time 1.70703745
-#######Execution time 1.70622148
-#######Execution time 1.70767241
-#######Execution time 1.70746650
-#######Execution time 1.70893034
-#######Execution time 1.70778407
-#######Execution time 1.70444507
-#######Execution time 1.70619874
-#######Execution time 1.70911312
-#######Execution time 1.70776357
-#######Execution time 1.70576909
-#######Execution time 1.70929055
-#######Execution time 1.70703502
-#######Execution time 1.70868156
-#######Execution time 1.70223530
-#######Execution time 1.71136012
-#######Execution time 1.70916307
-#######Execution time 1.70986467
-#######Execution time 1.70931912
-#######Execution time 1.70572670
-#######Execution time 1.70833445
-#######Execution time 1.71023854
-#######Execution time 1.70745887
-#######Execution time 1.70767692
-#######Execution time 1.71001466
-#######Execution time 1.70626961
-#######Execution time 1.70891638
-#######Execution time 1.71083623
-#######Execution time 1.70607012
-#######Execution time 1.70445954
-#######Execution time 1.70694359
-#######Execution time 1.70868011
-#######Execution time 1.70222599
-#######Execution time 1.70765135
-#######Execution time 1.70444658
+I am process 16 and I have received 82 messages. My final messages have tag 160 and value 788, -788
+I am process 28 and I have received 82 messages. My final messages have tag 280 and value 764, -764
+I am process 23 and I have received 82 messages. My final messages have tag 230 and value 774, -774
+I am process 19 and I have received 82 messages. My final messages have tag 190 and value 782, -782
+I am process 15 and I have received 82 messages. My final messages have tag 150 and value 790, -790
+I am process 10 and I have received 82 messages. My final messages have tag 100 and value 800, -800
+I am process 2 and I have received 82 messages. My final messages have tag 20 and value 816, -816
+I am process 6 and I have received 82 messages. My final messages have tag 60 and value 808, -808
+I am process 32 and I have received 82 messages. My final messages have tag 320 and value 756, -756
+I am process 11 and I have received 82 messages. My final messages have tag 110 and value 798, -798
+I am process 18 and I have received 82 messages. My final messages have tag 180 and value 784, -784
+I am process 9 and I have received 82 messages. My final messages have tag 90 and value 802, -802
+I am process 22 and I have received 82 messages. My final messages have tag 220 and value 776, -776
+I am process 12 and I have received 82 messages. My final messages have tag 120 and value 796, -796
+I am process 4 and I have received 82 messages. My final messages have tag 40 and value 812, -812
+I am process 0 and I have received 82 messages. My final messages have tag 0 and value 820, -820
+I am process 13 and I have received 82 messages. My final messages have tag 130 and value 794, -794
+I am process 3 and I have received 82 messages. My final messages have tag 30 and value 814, -814
+I am process 37 and I have received 82 messages. My final messages have tag 370 and value 746, -746
+I am process 25 and I have received 82 messages. My final messages have tag 250 and value 770, -770
+I am process 1 and I have received 82 messages. My final messages have tag 10 and value 818, -818
+I am process 20 and I have received 82 messages. My final messages have tag 200 and value 780, -780
+I am process 17 and I have received 82 messages. My final messages have tag 170 and value 786, -786
+I am process 21 and I have received 82 messages. My final messages have tag 210 and value 778, -778
+I am process 7 and I have received 82 messages. My final messages have tag 70 and value 806, -806
+I am process 8 and I have received 82 messages. My final messages have tag 80 and value 804, -804
+I am process 5 and I have received 82 messages. My final messages have tag 50 and value 810, -810
+I am process 24 and I have received 82 messages. My final messages have tag 240 and value 772, -772
+I am process 27 and I have received 82 messages. My final messages have tag 270 and value 766, -766
+I am process 38 and I have received 82 messages. My final messages have tag 380 and value 744, -744
+I am process 35 and I have received 82 messages. My final messages have tag 350 and value 750, -750
+I am process 29 and I have received 82 messages. My final messages have tag 290 and value 762, -762
+I am process 39 and I have received 82 messages. My final messages have tag 390 and value 742, -742
+I am process 26 and I have received 82 messages. My final messages have tag 260 and value 768, -768
+I am process 31 and I have received 82 messages. My final messages have tag 310 and value 758, -758
+I am process 40 and I have received 82 messages. My final messages have tag 400 and value 740, -740
+I am process 33 and I have received 82 messages. My final messages have tag 330 and value 754, -754
+I am process 30 and I have received 82 messages. My final messages have tag 300 and value 760, -760
+I am process 34 and I have received 82 messages. My final messages have tag 340 and value 752, -752
+I am process 36 and I have received 82 messages. My final messages have tag 360 and value 748, -748
+I am process 14 and I have received 82 messages. My final messages have tag 140 and value 792, -792
+1.67775013

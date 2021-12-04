@@ -1,57 +1,20 @@
-I am process 17 and I have received 38 messages. My final messages have tag 170 and value 137 from left, -137 from right
-I am process 17 and I have received 38 messages. My final messages have tag 170 and value 137 from left, -137 from right
-I am process 7 and I have received 38 messages. My final messages have tag 70 and value 157 from left, -157 from right
-I am process 7 and I have received 38 messages. My final messages have tag 70 and value 157 from left, -157 from right
-I am process 4 and I have received 38 messages. My final messages have tag 40 and value 163 from left, -163 from right
-I am process 4 and I have received 38 messages. My final messages have tag 40 and value 163 from left, -163 from right
-I am process 13 and I have received 38 messages. My final messages have tag 130 and value 145 from left, -145 from right
-I am process 13 and I have received 38 messages. My final messages have tag 130 and value 145 from left, -145 from right
-I am process 14 and I have received 38 messages. My final messages have tag 140 and value 143 from left, -143 from right
-I am process 14 and I have received 38 messages. My final messages have tag 140 and value 143 from left, -143 from right
-I am process 3 and I have received 38 messages. My final messages have tag 30 and value 165 from left, -165 from right
-I am process 3 and I have received 38 messages. My final messages have tag 30 and value 165 from left, -165 from right
-I am process 10 and I have received 38 messages. My final messages have tag 100 and value 151 from left, -151 from right
-I am process 10 and I have received 38 messages. My final messages have tag 100 and value 151 from left, -151 from right
-I am process 2 and I have received 38 messages. My final messages have tag 20 and value 167 from left, -167 from right
-I am process 2 and I have received 38 messages. My final messages have tag 20 and value 167 from left, -167 from right
-I am process 9 and I have received 38 messages. My final messages have tag 90 and value 153 from left, -153 from right
-I am process 9 and I have received 38 messages. My final messages have tag 90 and value 153 from left, -153 from right
-I am process 11 and I have received 38 messages. My final messages have tag 110 and value 149 from left, -149 from right
-I am process 11 and I have received 38 messages. My final messages have tag 110 and value 149 from left, -149 from right
-I am process 18 and I have received 38 messages. My final messages have tag 180 and value 135 from left, -135 from right
-I am process 18 and I have received 38 messages. My final messages have tag 180 and value 135 from left, -135 from right
-I am process 15 and I have received 38 messages. My final messages have tag 150 and value 141 from left, -141 from right
-I am process 15 and I have received 38 messages. My final messages have tag 150 and value 141 from left, -141 from right
-I am process 8 and I have received 38 messages. My final messages have tag 80 and value 155 from left, -155 from right
-I am process 8 and I have received 38 messages. My final messages have tag 80 and value 155 from left, -155 from right
-I am process 1 and I have received 38 messages. My final messages have tag 10 and value 169 from left, -169 from right
-I am process 1 and I have received 38 messages. My final messages have tag 10 and value 169 from left, -169 from right
-I am process 0 and I have received 38 messages. My final messages have tag 0 and value 171 from left, -171 from right
-I am process 0 and I have received 38 messages. My final messages have tag 0 and value 171 from left, -171 from right
-I am process 6 and I have received 38 messages. My final messages have tag 60 and value 159 from left, -159 from right
-I am process 6 and I have received 38 messages. My final messages have tag 60 and value 159 from left, -159 from right
-I am process 16 and I have received 38 messages. My final messages have tag 160 and value 139 from left, -139 from right
-I am process 16 and I have received 38 messages. My final messages have tag 160 and value 139 from left, -139 from right
-I am process 5 and I have received 38 messages. My final messages have tag 50 and value 161 from left, -161 from right
-I am process 5 and I have received 38 messages. My final messages have tag 50 and value 161 from left, -161 from right
-I am process 12 and I have received 38 messages. My final messages have tag 120 and value 147 from left, -147 from right
-I am process 12 and I have received 38 messages. My final messages have tag 120 and value 147 from left, -147 from right
-#######Execution time 1.67087976
-#######Execution time 1.67188919
-#######Execution time 1.67083361
-#######Execution time 1.67187038
-#######Execution time 1.67181740
-#######Execution time 1.67088120
-#######Execution time 1.67188935
-#######Execution time 1.67119642
-#######Execution time 1.67188922
-#######Execution time 1.67181692
-#######Execution time 1.67018031
-#######Execution time 1.67083300
-#######Execution time 1.67187029
-#######Execution time 1.67185396
-#######Execution time 1.67188403
-#######Execution time 1.67185921
-#######Execution time 1.67188519
-#######Execution time 1.67186176
-#######Execution time 1.67119859
+I am process 17 and I have received 38 messages. My final messages have tag 170 and value 137, -137
+I am process 4 and I have received 38 messages. My final messages have tag 40 and value 163, -163
+I am process 12 and I have received 38 messages. My final messages have tag 120 and value 147, -147
+I am process 15 and I have received 38 messages. My final messages have tag 150 and value 141, -141
+I am process 3 and I have received 38 messages. My final messages have tag 30 and value 165, -165
+I am process 18 and I have received 38 messages. My final messages have tag 180 and value 135, -135
+I am process 1 and I have received 38 messages. My final messages have tag 10 and value 169, -169
+I am process 11 and I have received 38 messages. My final messages have tag 110 and value 149, -149
+I am process 7 and I have received 38 messages. My final messages have tag 70 and value 157, -157
+I am process 6 and I have received 38 messages. My final messages have tag 60 and value 159, -159
+I am process 9 and I have received 38 messages. My final messages have tag 90 and value 153, -153
+I am process 0 and I have received 38 messages. My final messages have tag 0 and value 171, -171
+I am process 5 and I have received 38 messages. My final messages have tag 50 and value 161, -161
+I am process 16 and I have received 38 messages. My final messages have tag 160 and value 139, -139
+I am process 8 and I have received 38 messages. My final messages have tag 80 and value 155, -155
+I am process 14 and I have received 38 messages. My final messages have tag 140 and value 143, -143
+I am process 13 and I have received 38 messages. My final messages have tag 130 and value 145, -145
+I am process 2 and I have received 38 messages. My final messages have tag 20 and value 167, -167
+I am process 10 and I have received 38 messages. My final messages have tag 100 and value 151, -151
+1.64445616
