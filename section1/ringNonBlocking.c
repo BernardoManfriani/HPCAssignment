@@ -40,7 +40,7 @@ int main (int argc, char * argv[])
     status[2].MPI_TAG = 1;  //Initialise status tag for have safe check in the while loop
     status[3].MPI_TAG = 1;  //Initialise status tag for have safe check in the while loop
 
-    for (size_t i = 0; i < 100000; i++) {
+    for (size_t i = 0; i < 10000; i++) {
       while(status[3].MPI_TAG != rank*10 && status[2].MPI_TAG != rank*10){
         MPI_Isend(&msgleft, 1, MPI_INT, leftP, itag1, ringCommunicator, &reqs[0]);          //Send msglefto left
         MPI_Isend(&msgright, 1, MPI_INT, rightP, itag2, ringCommunicator, &reqs[1]);        //Send msright to right
@@ -57,16 +57,14 @@ int main (int argc, char * argv[])
       }
     }
 
-
-
     MPI_Barrier(ringCommunicator);
 
     timeE = MPI_Wtime();
     timeT = timeT + (timeE - timeS);
-
-    printf("I am process %d and I have received %d messages. My final messages have tag %d and value %d, %d\n", rank, np, status[2].MPI_TAG ,msgFromLeft, msgFromRight);
   }
+  printf("I am process %d and I have received %d messages. My final messages have tag %d and value %d, %d\n", rank, np, status[2].MPI_TAG ,msgFromLeft, msgFromRight);
   timeT = timeT / 100;
+  printf("%10.8f\n", timeT);
   MPI_Reduce(&timeT, &timeRcv, 1, MPI_DOUBLE, MPI_MIN,0, ringCommunicator);
 
   MPI_Finalize();
