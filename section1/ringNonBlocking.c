@@ -14,7 +14,7 @@ int main (int argc, char * argv[])
   int itag1, itag2;
   double timeS;  //Start Time
   double timeE;  //End Time
-  double timeT;
+  double timeT = 0;
   double timeRcv;
 
   MPI_Request reqs[4];   // required variable for non-blocking calls
@@ -57,12 +57,14 @@ int main (int argc, char * argv[])
       }
     }
 
-    printf("I am process %d and I have received %d messages. My final messages have tag %d and value %d, %d\n", rank, np, status[2].MPI_TAG ,msgFromLeft, msgFromRight);
+
 
     MPI_Barrier(ringCommunicator);
 
     timeE = MPI_Wtime();
     timeT = timeT + (timeE - timeS);
+
+    printf("I am process %d and I have received %d messages. My final messages have tag %d and value %d, %d\n", rank, np, status[2].MPI_TAG ,msgFromLeft, msgFromRight);
   }
   timeT = timeT / 100;
   MPI_Reduce(&timeT, &timeRcv, 1, MPI_DOUBLE, MPI_MIN,0, ringCommunicator);
