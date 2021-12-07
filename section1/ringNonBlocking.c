@@ -73,7 +73,7 @@ int main (int argc, char * argv[])
   MPI_Finalize();
 
   if(rank == 0){
-      printf("%10.8f\n", timeRcv);
+      printf("%10.8f\n", timeF);
   }
 
 
