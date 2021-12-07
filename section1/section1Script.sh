@@ -8,6 +8,7 @@ module load openmpi-4.1.1+gnu-9.3.0
 
 time_first=[]
 rm results.csv
+rm ring_time_non_blocking*
 
 for x in {2..48}
 do
