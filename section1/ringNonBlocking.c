@@ -14,8 +14,8 @@ int main (int argc, char * argv[])
   int itag1, itag2;
   double timeS;  //Start Time
   double timeE;  //End Time
-  double timeT = 0;
-  double timeF = 0;
+  double timeT = 0.0;
+  double timeF = 0.0;
   double timeRcv;
 
   MPI_Request reqs[4];   // required variable for non-blocking calls
