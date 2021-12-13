@@ -48,8 +48,8 @@ int main (int argc, char * argv[])
       MPI_Irecv(&msgFromRight, 1, MPI_INT, rightP, MPI_ANY_TAG, ringCommunicator, &reqs[2]); //Receive msgrcv[1] from right
       MPI_Irecv(&msgFromLeft, 1, MPI_INT, leftP, MPI_ANY_TAG, ringCommunicator, &reqs[3]);  //Receive msgrcv[0] from left
 
-      np = np + 2;  //Updating number of time that rank processor has recived a message
       MPI_Waitall(4, reqs, status);   //Wait for every call MPI_Irecv and MPI_Irecv to mantain safety
+      np = np + 2;  //Updating number of time that rank processor has recived a message
 
       msgleft = msgFromRight - rank ;    //received from right forward to left substracted
       msgright = msgFromLeft + rank;    //received from left forward to right added
