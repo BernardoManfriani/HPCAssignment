@@ -1,15 +1,15 @@
-I am process 1 and I have received 2800000 messages. My final messages have tag 10 and value 9099998, -9099998
-I am process 2 and I have received 2800000 messages. My final messages have tag 20 and value 9099996, -9099996
-I am process 5 and I have received 2800000 messages. My final messages have tag 50 and value 9099990, -9099990
-I am process 9 and I have received 2800000 messages. My final messages have tag 90 and value 9099982, -9099982
-I am process 11 and I have received 2800000 messages. My final messages have tag 110 and value 9099978, -9099978
-I am process 12 and I have received 2800000 messages. My final messages have tag 120 and value 9099976, -9099976
-I am process 13 and I have received 2800000 messages. My final messages have tag 130 and value 9099974, -9099974
-I am process 0 and I have received 2800000 messages. My final messages have tag 0 and value 9100000, -9100000
-I am process 3 and I have received 2800000 messages. My final messages have tag 30 and value 9099994, -9099994
-I am process 4 and I have received 2800000 messages. My final messages have tag 40 and value 9099992, -9099992
-I am process 6 and I have received 2800000 messages. My final messages have tag 60 and value 9099988, -9099988
-I am process 7 and I have received 2800000 messages. My final messages have tag 70 and value 9099986, -9099986
-I am process 8 and I have received 2800000 messages. My final messages have tag 80 and value 9099984, -9099984
-I am process 10 and I have received 2800000 messages. My final messages have tag 100 and value 9099980, -9099980
-0.00001685
+I am process 5 and I have received 28 messages. My final messages have tag 50 and value 81, -81
+I am process 7 and I have received 28 messages. My final messages have tag 70 and value 77, -77
+I am process 8 and I have received 28 messages. My final messages have tag 80 and value 75, -75
+I am process 9 and I have received 28 messages. My final messages have tag 90 and value 73, -73
+I am process 10 and I have received 28 messages. My final messages have tag 100 and value 71, -71
+I am process 11 and I have received 28 messages. My final messages have tag 110 and value 69, -69
+I am process 12 and I have received 28 messages. My final messages have tag 120 and value 67, -67
+I am process 13 and I have received 28 messages. My final messages have tag 130 and value 65, -65
+I am process 0 and I have received 28 messages. My final messages have tag 0 and value 91, -91
+I am process 1 and I have received 28 messages. My final messages have tag 10 and value 89, -89
+I am process 2 and I have received 28 messages. My final messages have tag 20 and value 87, -87
+I am process 3 and I have received 28 messages. My final messages have tag 30 and value 85, -85
+I am process 4 and I have received 28 messages. My final messages have tag 40 and value 83, -83
+I am process 6 and I have received 28 messages. My final messages have tag 60 and value 79, -79
+0.00001682
