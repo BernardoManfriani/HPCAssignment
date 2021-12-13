@@ -1,8 +1,8 @@
-I am process 0 and I have received 14 messages. My final messages have tag 0 and value 21, -21
-I am process 2 and I have received 14 messages. My final messages have tag 20 and value 17, -17
-I am process 3 and I have received 14 messages. My final messages have tag 30 and value 15, -15
-I am process 5 and I have received 14 messages. My final messages have tag 50 and value 11, -11
-I am process 6 and I have received 14 messages. My final messages have tag 60 and value 9, -9
-I am process 1 and I have received 14 messages. My final messages have tag 10 and value 19, -19
-I am process 4 and I have received 14 messages. My final messages have tag 40 and value 13, -13
-0.00000115
+I am process 2 and I have received 1400000 messages. My final messages have tag 20 and value 2099996, -2099996
+I am process 3 and I have received 1400000 messages. My final messages have tag 30 and value 2099994, -2099994
+I am process 4 and I have received 1400000 messages. My final messages have tag 40 and value 2099992, -2099992
+I am process 5 and I have received 1400000 messages. My final messages have tag 50 and value 2099990, -2099990
+I am process 6 and I have received 1400000 messages. My final messages have tag 60 and value 2099988, -2099988
+I am process 0 and I have received 1400000 messages. My final messages have tag 0 and value 2100000, -2100000
+I am process 1 and I have received 1400000 messages. My final messages have tag 10 and value 2099998, -2099998
+0.00000516
