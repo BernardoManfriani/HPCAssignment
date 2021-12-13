@@ -12,7 +12,7 @@ rm ring_time_non_blocking*
 
 for x in {2..48}
 do
-   mpirun --map-by node -np $x --mca btl ^openib ./ringNonBlock.x > ring_time_non_blocking_${x}_procc
+   mpirun --map-by core -np $x --mca btl ^openib ./ringNonBlock.x > ring_time_non_blocking_${x}_procc
 
    str=$(cat ring_time_non_blocking_${x}_procc | tail -1 )
 

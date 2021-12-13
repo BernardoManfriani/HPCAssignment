@@ -1,12 +1,12 @@
-I am process 2 and I have received 22 messages. My final messages have tag 20 and value 51, -51
-I am process 4 and I have received 22 messages. My final messages have tag 40 and value 47, -47
-I am process 6 and I have received 22 messages. My final messages have tag 60 and value 43, -43
-I am process 8 and I have received 22 messages. My final messages have tag 80 and value 39, -39
-I am process 10 and I have received 22 messages. My final messages have tag 100 and value 35, -35
 I am process 0 and I have received 22 messages. My final messages have tag 0 and value 55, -55
-I am process 1 and I have received 22 messages. My final messages have tag 10 and value 53, -53
-I am process 3 and I have received 22 messages. My final messages have tag 30 and value 49, -49
+I am process 4 and I have received 22 messages. My final messages have tag 40 and value 47, -47
 I am process 5 and I have received 22 messages. My final messages have tag 50 and value 45, -45
 I am process 7 and I have received 22 messages. My final messages have tag 70 and value 41, -41
+I am process 8 and I have received 22 messages. My final messages have tag 80 and value 39, -39
+I am process 10 and I have received 22 messages. My final messages have tag 100 and value 35, -35
+I am process 1 and I have received 22 messages. My final messages have tag 10 and value 53, -53
+I am process 2 and I have received 22 messages. My final messages have tag 20 and value 51, -51
+I am process 3 and I have received 22 messages. My final messages have tag 30 and value 49, -49
+I am process 6 and I have received 22 messages. My final messages have tag 60 and value 43, -43
 I am process 9 and I have received 22 messages. My final messages have tag 90 and value 37, -37
-0.00000389
+0.00000183
