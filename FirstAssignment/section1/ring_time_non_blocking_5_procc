@@ -3,4 +3,4 @@ I am process 2 and I have received 10 messages. My final messages have tag 20 an
 I am process 4 and I have received 10 messages. My final messages have tag 40 and value 2, -2
 I am process 1 and I have received 10 messages. My final messages have tag 10 and value 8, -8
 I am process 3 and I have received 10 messages. My final messages have tag 30 and value 4, -4
-0.00000255
+0.00000260
