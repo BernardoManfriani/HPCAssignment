@@ -31,15 +31,16 @@ int main (int argc, char * argv[])
   MPI_Comm_rank( ringCommunicator, &rank );
   MPI_Comm_size( ringCommunicator, &size );
 
-  msgleft = rank;
-  msgright = -rank;
-  itag1 = rank*10;
-  itag2 = rank*10;
 
-  status[2].MPI_TAG = 1;  //Initialise status tag for have safe check in the while loop
-  status[3].MPI_TAG = 1;  //Initialise status tag for have safe check in the while loop
 
   for (size_t i = 0; i < 100000; i++) {
+    np = 0;
+    msgleft = rank;
+    msgright = -rank;
+    itag1 = rank*10;
+    itag2 = rank*10;
+    status[2].MPI_TAG = 1;  //Initialise status tag for have safe check in the while loop
+    status[3].MPI_TAG = 1;  //Initialise status tag for have safe check in the while loop
     MPI_Barrier(ringCommunicator);
     timeS = MPI_Wtime();
     do{
