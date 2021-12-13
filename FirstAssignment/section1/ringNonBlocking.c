@@ -42,7 +42,8 @@ int main (int argc, char * argv[])
   for (size_t i = 0; i < 100000; i++) {
     MPI_Barrier(ringCommunicator);
     timeS = MPI_Wtime();
-    while(status[3].MPI_TAG != rank*10 && status[2].MPI_TAG != rank*10){
+    //while(status[3].MPI_TAG != rank*10 && status[2].MPI_TAG != rank*10){
+    while (np < 2*size) {
       MPI_Isend(&msgleft, 1, MPI_INT, leftP, itag1, ringCommunicator, &reqs[0]);          //Send msglefto left
       MPI_Isend(&msgright, 1, MPI_INT, rightP, itag2, ringCommunicator, &reqs[1]);        //Send msright to right
       MPI_Irecv(&msgFromRight, 1, MPI_INT, rightP, MPI_ANY_TAG, ringCommunicator, &reqs[2]); //Receive msgrcv[1] from right
