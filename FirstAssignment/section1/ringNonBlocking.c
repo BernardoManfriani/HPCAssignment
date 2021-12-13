@@ -39,7 +39,7 @@ int main (int argc, char * argv[])
   status[2].MPI_TAG = 1;  //Initialise status tag for have safe check in the while loop
   status[3].MPI_TAG = 1;  //Initialise status tag for have safe check in the while loop
 
-  for (size_t i = 0; i < 100000; i++) {
+  for (size_t i = 0; i < 10; i++) {
     MPI_Barrier(ringCommunicator);
     timeS = MPI_Wtime();
     while(status[3].MPI_TAG != rank*10 && status[2].MPI_TAG != rank*10){
@@ -59,14 +59,16 @@ int main (int argc, char * argv[])
     MPI_Barrier(ringCommunicator);
 
     timeE = MPI_Wtime();
-    //printf("%10.8f\n", timeT);
+    printf("%10.8f\n", timeE);
+    printf("%10.8f\n", timeS);
     timeT = timeE - timeS;
+    printf("%10.8f\n", timeT);
     MPI_Reduce(&timeT, &timeRcv, 1, MPI_DOUBLE, MPI_MAX,0, ringCommunicator);
     timeF = timeF + timeRcv;
   }
 
   printf("I am process %d and I have received %d messages. My final messages have tag %d and value %d, %d\n", rank, np, status[2].MPI_TAG ,msgFromLeft, msgFromRight);
-  timeF = timeF / 100000 ;
+  timeF = timeF / 10 ;
 
 
   MPI_Finalize();
