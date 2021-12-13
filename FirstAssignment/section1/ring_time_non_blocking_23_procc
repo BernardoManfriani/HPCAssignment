@@ -1,24 +1,24 @@
-I am process 12 and I have received 46 messages. My final messages have tag 120 and value 229, -229
-I am process 16 and I have received 46 messages. My final messages have tag 160 and value 221, -221
-I am process 18 and I have received 46 messages. My final messages have tag 180 and value 217, -217
-I am process 22 and I have received 46 messages. My final messages have tag 220 and value 209, -209
 I am process 0 and I have received 46 messages. My final messages have tag 0 and value 253, -253
 I am process 2 and I have received 46 messages. My final messages have tag 20 and value 249, -249
 I am process 4 and I have received 46 messages. My final messages have tag 40 and value 245, -245
 I am process 6 and I have received 46 messages. My final messages have tag 60 and value 241, -241
 I am process 8 and I have received 46 messages. My final messages have tag 80 and value 237, -237
 I am process 10 and I have received 46 messages. My final messages have tag 100 and value 233, -233
+I am process 12 and I have received 46 messages. My final messages have tag 120 and value 229, -229
 I am process 14 and I have received 46 messages. My final messages have tag 140 and value 225, -225
+I am process 16 and I have received 46 messages. My final messages have tag 160 and value 221, -221
+I am process 18 and I have received 46 messages. My final messages have tag 180 and value 217, -217
 I am process 20 and I have received 46 messages. My final messages have tag 200 and value 213, -213
-I am process 7 and I have received 46 messages. My final messages have tag 70 and value 239, -239
-I am process 11 and I have received 46 messages. My final messages have tag 110 and value 231, -231
-I am process 13 and I have received 46 messages. My final messages have tag 130 and value 227, -227
-I am process 17 and I have received 46 messages. My final messages have tag 170 and value 219, -219
-I am process 19 and I have received 46 messages. My final messages have tag 190 and value 215, -215
-I am process 21 and I have received 46 messages. My final messages have tag 210 and value 211, -211
+I am process 22 and I have received 46 messages. My final messages have tag 220 and value 209, -209
 I am process 1 and I have received 46 messages. My final messages have tag 10 and value 251, -251
 I am process 3 and I have received 46 messages. My final messages have tag 30 and value 247, -247
 I am process 5 and I have received 46 messages. My final messages have tag 50 and value 243, -243
+I am process 7 and I have received 46 messages. My final messages have tag 70 and value 239, -239
 I am process 9 and I have received 46 messages. My final messages have tag 90 and value 235, -235
+I am process 11 and I have received 46 messages. My final messages have tag 110 and value 231, -231
+I am process 13 and I have received 46 messages. My final messages have tag 130 and value 227, -227
 I am process 15 and I have received 46 messages. My final messages have tag 150 and value 223, -223
-0.00000454
+I am process 17 and I have received 46 messages. My final messages have tag 170 and value 219, -219
+I am process 19 and I have received 46 messages. My final messages have tag 190 and value 215, -215
+I am process 21 and I have received 46 messages. My final messages have tag 210 and value 211, -211
+0.00000470
