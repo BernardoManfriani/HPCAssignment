@@ -84,10 +84,13 @@ int main(int argc, char* argv[]) {
     }
     printf("\n");
   }
+
+
+  MPI_Finalize();
+
   if (myrank == 0) {
     printf("The time is: %10.8f\n", timeT);
   }
-
-  MPI_Finalize();
+  
   return 0;
 }
