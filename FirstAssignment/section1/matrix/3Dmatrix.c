@@ -34,7 +34,7 @@ int main(int argc, char* argv[]) {
 
   if(myrank == 0){
     int dimFin = r1*r2*r3/size;
-    printf("I am the processor %d of %d processor I have two matrices of dimension %d \\n\n", myrank, size, dimFin);
+    printf("I am the processor %d of %d processor I have two matrices of dimension %d \n\n", myrank, size, dimFin);
     //CREATE and INITIALIZE MATRIXES
     srand(time(NULL));
     for (int i = 0; i < r1; i++) {
