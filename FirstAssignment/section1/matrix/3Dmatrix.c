@@ -33,7 +33,8 @@ int main(int argc, char* argv[]) {
          send_data[dim_recv];
 
   if(myrank == 0){
-    printf("I am the processor %d of %d processor\n\n", myrank, size);
+    int dimFin = r1*r2*r3/size;
+    printf("I am the processor %d of %d processor I have two matrices of dimension %d \\n\n", myrank, size, dimFin);
     //CREATE and INITIALIZE MATRIXES
     srand(time(NULL));
     for (int i = 0; i < r1; i++) {
@@ -45,7 +46,7 @@ int main(int argc, char* argv[]) {
       }
     }
     //PRINT MATRIXES
-
+    /*
     for (int i = 0; i < r1; i++) {
       for (int j = 0; j < r2; j++) {
         for (int k = 0; k < r3; k++) {
@@ -56,8 +57,9 @@ int main(int argc, char* argv[]) {
       printf("\n");
     }
     printf("\n");
+    */
   }else{
-    printf("I am the processor %d of %d processor I have a vector of dimension %d \n\n", myrank, size, r1);
+    printf("I am the processor %d of %d processor I have two matrices of dimension %d \n\n", myrank, size, r1);
   }
 
   MPI_Scatter(&mat1, dim_recv, MPI_DOUBLE, &recv_data1, dim_recv, MPI_DOUBLE, 0, MPI_COMM_WORLD);
@@ -73,6 +75,7 @@ int main(int argc, char* argv[]) {
   timeE = MPI_Wtime();
   timeT = timeE - timeS;
 
+  /*
   if(myrank == 0){
     for (int i = 0; i < r1; i++) {
       for (int j = 0; j < r2; j++) {
@@ -84,13 +87,13 @@ int main(int argc, char* argv[]) {
     }
     printf("\n");
   }
-
+  */
 
   MPI_Finalize();
 
   if (myrank == 0) {
     printf("The time is: %10.8f\n", timeT);
   }
-  
+
   return 0;
 }
