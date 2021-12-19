@@ -41,10 +41,12 @@ int main (int argc, char * argv[])
     itag2 = rank*10;
     status[2].MPI_TAG = 1;  //Initialize status tag for have safe check in the while loop
     status[3].MPI_TAG = 1;  //Initialize status tag for have safe check in the while loop
+
     MPI_Barrier(ringCommunicator);
     timeS = MPI_Wtime();
+
     do{
-      MPI_Isend(&msgleft, 1, MPI_INT, leftP, itag1, ringCommunicator, &reqs[0]);          //Send msglefto left
+      MPI_Isend(&msgleft, 1, MPI_INT, leftP, itag1, ringCommunicator, &reqs[0]);          //Send msglef to left
       MPI_Isend(&msgright, 1, MPI_INT, rightP, itag2, ringCommunicator, &reqs[1]);        //Send msright to right
       MPI_Irecv(&msgFromRight, 1, MPI_INT, rightP, MPI_ANY_TAG, ringCommunicator, &reqs[2]); //Receive msgrcv[1] from right
       MPI_Irecv(&msgFromLeft, 1, MPI_INT, leftP, MPI_ANY_TAG, ringCommunicator, &reqs[3]);  //Receive msgrcv[0] from left
