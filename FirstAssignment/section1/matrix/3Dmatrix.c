@@ -12,9 +12,6 @@ int main(int argc, char* argv[]) {
   MPI_Comm_rank(MPI_COMM_WORLD, &myrank);
   MPI_Comm_size(MPI_COMM_WORLD, &size);
 
-  MPI_Barrier(MPI_COMM_WORLD);
-  timeS = MPI_Wtime();
-
   if(myrank == 0){
     r1 = atoi(argv[1]);
     r2 = atoi(argv[2]);
@@ -50,6 +47,9 @@ int main(int argc, char* argv[]) {
   }else{
     printf("I am the processor %d of %d processor I have two matrices of dimension %d \n\n", myrank, size, r1);
   }
+
+  MPI_Barrier(MPI_COMM_WORLD);
+  timeS = MPI_Wtime();
 
   MPI_Scatter(&mat1, dim_recv, MPI_DOUBLE, &recv_data1, dim_recv, MPI_DOUBLE, 0, MPI_COMM_WORLD);
   MPI_Scatter(&mat2, dim_recv, MPI_DOUBLE, &recv_data2, dim_recv, MPI_DOUBLE, 0, MPI_COMM_WORLD);
