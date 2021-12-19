@@ -7,12 +7,14 @@ int main(int argc, char* argv[]) {
   int r1, r2, r3, size, myrank;
   int dim_recv;
   double timeS, timeE, timeT;
+
   MPI_Init(&argc,&argv);
   MPI_Comm_rank(MPI_COMM_WORLD, &myrank);
   MPI_Comm_size(MPI_COMM_WORLD, &size);
 
   MPI_Barrier(MPI_COMM_WORLD);
   timeS = MPI_Wtime();
+
   if(myrank == 0){
     r1 = atoi(argv[1]);
     r2 = atoi(argv[2]);
@@ -45,19 +47,6 @@ int main(int argc, char* argv[]) {
         }
       }
     }
-    //PRINT MATRIXES
-    /*
-    for (int i = 0; i < r1; i++) {
-      for (int j = 0; j < r2; j++) {
-        for (int k = 0; k < r3; k++) {
-          printf("mat1[%d][%d][%d]: %f \n", i, j, k, mat1[i][j][k]);
-          printf("mat2[%d][%d][%d]: %f \n", i, j, k, mat2[i][j][k]);
-        }
-      }
-      printf("\n");
-    }
-    printf("\n");
-    */
   }else{
     printf("I am the processor %d of %d processor I have two matrices of dimension %d \n\n", myrank, size, r1);
   }
