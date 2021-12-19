@@ -48,20 +48,21 @@ int main(int argc, char* argv[]) {
     printf("I am the processor %d of %d processor I have two matrices of dimension %d \n\n", myrank, size, r1);
   }
 
-  MPI_Barrier(MPI_COMM_WORLD);
-  timeS = MPI_Wtime();
+
 
   MPI_Scatter(&mat1, dim_recv, MPI_DOUBLE, &recv_data1, dim_recv, MPI_DOUBLE, 0, MPI_COMM_WORLD);
   MPI_Scatter(&mat2, dim_recv, MPI_DOUBLE, &recv_data2, dim_recv, MPI_DOUBLE, 0, MPI_COMM_WORLD);
+  MPI_Barrier(MPI_COMM_WORLD);
+  timeS = MPI_Wtime();
 
   for (int i = 0; i < dim_recv; i++) {
     send_data[i] = recv_data1[i] + recv_data2[i] ;
   }
-
-  MPI_Gather(&send_data, dim_recv, MPI_DOUBLE, &matEnd, dim_recv, MPI_DOUBLE, 0, MPI_COMM_WORLD);
-
   MPI_Barrier(MPI_COMM_WORLD);
   timeE = MPI_Wtime();
+  MPI_Gather(&send_data, dim_recv, MPI_DOUBLE, &matEnd, dim_recv, MPI_DOUBLE, 0, MPI_COMM_WORLD);
+
+
   timeT = timeE - timeS;
 
   /*
