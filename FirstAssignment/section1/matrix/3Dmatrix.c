@@ -6,7 +6,7 @@
 int main(int argc, char* argv[]) {
   int r1, r2, r3, size, myrank;
   int dim_recv;
-  double timeS, timeE, timeT, timeMf, timeMf, timeMt;
+  double timeS, timeE, timeT, timeMf, timeMs, timeMt;
 
   MPI_Init(&argc,&argv);
   MPI_Comm_rank(MPI_COMM_WORLD, &myrank);
