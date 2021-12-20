@@ -6,7 +6,7 @@
 int main(int argc, char* argv[]) {
   int r1, r2, r3, size, myrank;
   int dim_recv;
-  double timeS, timeE, timeT;
+  double timeS, timeE, timeT, timeMf, timeMf, timeMt;
 
   MPI_Init(&argc,&argv);
   MPI_Comm_rank(MPI_COMM_WORLD, &myrank);
@@ -54,15 +54,19 @@ int main(int argc, char* argv[]) {
   MPI_Scatter(&mat1, dim_recv, MPI_DOUBLE, &recv_data1, dim_recv, MPI_DOUBLE, 0, MPI_COMM_WORLD);
   MPI_Scatter(&mat2, dim_recv, MPI_DOUBLE, &recv_data2, dim_recv, MPI_DOUBLE, 0, MPI_COMM_WORLD);
 
+  timeMs = MPI_Wtime();
   for (int i = 0; i < dim_recv; i++) {
     send_data[i] = recv_data1[i] + recv_data2[i] ;
   }
+
+  timeMf = MPI_Wtime();
+  timeMt = timeMf - timeMs;
 
   MPI_Gather(&send_data, dim_recv, MPI_DOUBLE, &matEnd, dim_recv, MPI_DOUBLE, 0, MPI_COMM_WORLD);
 
   MPI_Barrier(MPI_COMM_WORLD);
   timeE = MPI_Wtime();
-  timeT = timeE - timeS;
+  timeT = (timeE - timeS) - timeMt;
 
   /*
   if(myrank == 0){
