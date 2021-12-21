@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-#PBS -l nodes=2:ppn=2
+#PBS -l nodes=2:ppn=24
 
 #PBS -l walltime=01:00:00 
 
