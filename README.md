@@ -7,7 +7,7 @@ There are two directories:
   - `/SecondAssignment`
 
 ---
-First assignment contain three directories about three section of the first assignment: 
+First assignment contain three directories about three section of the first assignment and one that contain the R scripts about the assignment: 
   - `Section1`
   - `Section2`
   - `Section3`
