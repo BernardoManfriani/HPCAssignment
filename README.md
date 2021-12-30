@@ -3,6 +3,6 @@ This is the repository of Bernardo Manfriani's HPC Assigments for the Master cou
 
 ~~~
 There are two directories: 
-  -First Assignment
-  -Second Assignment
+  -`/First Assignment`
+  -`/Second Assignment`
 ~~~
