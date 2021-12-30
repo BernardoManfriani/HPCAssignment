@@ -3,5 +3,5 @@ This is the repository of Bernardo Manfriani's HPC Assigments for the Master cou
 
 
 There are two directories: 
-  - /FirstAssignment
-  - /SecondAssignment
+  - `/FirstAssignment`
+  - `/SecondAssignment`
