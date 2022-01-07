@@ -32,7 +32,8 @@ int main(int argc, char const *argv[]) {
   #pragma omp parallel
   {
     int myid = omp_get_thread_num();
-    int done = 0
+    int done = 0;
+    
     while (!done) {
      #pragma omp critical
       if ( order == myid ) {
