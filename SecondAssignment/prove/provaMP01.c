@@ -1,3 +1,9 @@
+#if defined(__STDC__)
+#  if (__STDC_VERSION__ >= 199901L)
+#     define _XOPEN_SOURCE 700
+#  endif
+#endif
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
