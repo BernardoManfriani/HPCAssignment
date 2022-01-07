@@ -13,7 +13,7 @@
 
 int main(int argc, char const *argv[]) {
   int nthreads = 1;
-  
+
   #pragma omp parallel
   {
      int myid = omp_get_thread_num();
@@ -24,7 +24,7 @@ int main(int argc, char const *argv[]) {
     #pragma omp for ordered
      for ( int i = 0; i < nthreads; i++ ){
       #pragma omp ordered
-       printf( "greetings from thread num %d\n", my_thread_id );
+       printf( "greetings from thread num %d\n", myid );
      }
   }
   return 0;
