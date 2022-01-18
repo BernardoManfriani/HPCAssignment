@@ -10,7 +10,6 @@
 #     define _XOPEN_SOURCE 700
 #  endif
 #endif
-
 // #if !defined(DOUBLE_PRECISION)
 // # define float_t float
 // #else
