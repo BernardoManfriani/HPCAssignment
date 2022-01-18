@@ -20,7 +20,7 @@
 
 // #define float_t double
 struct kpoint{
-  float[NDIM];
+  float[10];
 };
 
 struct kdnode {
