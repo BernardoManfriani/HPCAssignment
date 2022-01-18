@@ -1,9 +1,3 @@
-#if defined(__STDC__)
-#  if (__STDC_VERSION__ >= 199901L)
-#     define _XOPEN_SOURCE 700
-#  endif
-#endif
-
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
@@ -11,10 +5,16 @@
 #include <math.h>
 #include <omp.h>
 
+#if defined(__STDC__)
+#  if (__STDC_VERSION__ >= 199901L)
+#     define _XOPEN_SOURCE 700
+#  endif
+#endif
+
 #if !defined(DOUBLE_PRECISION)
-#define float_t float
+# define float_t float
 #else
-#define float_t double
+# define float_t double
 #endif
 #define NDIM 2
 
