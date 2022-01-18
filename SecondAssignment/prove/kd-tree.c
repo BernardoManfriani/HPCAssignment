@@ -11,13 +11,14 @@
 #  endif
 #endif
 
-#if !defined(DOUBLE_PRECISION)
-# define float_t float
-#else
-# define float_t double
-#endif
-#define NDIM 2
+// #if !defined(DOUBLE_PRECISION)
+// # define float_t float
+// #else
+// # define float_t double
+// #endif
+// #define NDIM 2
 
+#define float_t double
 struct kpoint float_t[NDIM];
 
 struct kdnode {
