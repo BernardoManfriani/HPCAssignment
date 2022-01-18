@@ -19,7 +19,9 @@
 // #define NDIM 2
 
 // #define float_t double
-struct kpoint float_t[NDIM];
+struct kpoint{
+  float[NDIM];
+};
 
 struct kdnode {
   int axis; // the splitting dimension
