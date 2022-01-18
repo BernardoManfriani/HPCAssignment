@@ -17,9 +17,9 @@
 #endif
 #define NDIM 2
 
-// struct kpoint {
-//   int[NDIM];
-// };
+struct kpoint {
+   int[NDIM];
+};
 //
 // struct kdnode {
 //   int axis; // the splitting dimension
