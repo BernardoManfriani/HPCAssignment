@@ -20,12 +20,12 @@
 struct kpoint {
    float_t a[NDIM];
 };
-//
-// struct kdnode {
-//   int axis; // the splitting dimension
-//   kpoint split; // the splitting element
-//   struct kdnode *left, *right; // the left and right sub-trees
-// };
+
+struct kdnode {
+   int axis; // the splitting dimension
+   kpoint split; // the splitting element
+   struct kdnode *left, *right; // the left and right sub-trees
+};
 
 int main(int argc, char const *argv[]) {
   int array_0[10];
