@@ -10,13 +10,13 @@
 #     define _XOPEN_SOURCE 700
 #  endif
 #endif
-// // #if !defined(DOUBLE_PRECISION)
-// // # define float_t float
-// // #else
-// // # define float_t double
-// // #endif
+#if !defined(DOUBLE_PRECISION)
+# define float_t float
+#else
+# define float_t double
+#endif
 // #define NDIM 2
-// // #define float_t double
+// #define float_t double
 // struct kpoint {
 //   int[NDIM];
 // };
