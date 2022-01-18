@@ -16,11 +16,11 @@
 // #else
 // # define float_t double
 // #endif
-// #define NDIM 2
+#define NDIM 2
 
 // #define float_t double
 struct kpoint{
-  float[10];
+  float[NDIM];
 };
 
 struct kdnode {
