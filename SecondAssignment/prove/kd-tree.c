@@ -29,5 +29,6 @@
 
 int main(int argc, char const *argv[]) {
   int array_0[10];
+  printf("%s\n", float_t);
   return 0;
 }
