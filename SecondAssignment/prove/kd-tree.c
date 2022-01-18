@@ -21,9 +21,9 @@
 struct kpoint float_t[NDIM];
 
 struct kdnode {
-int axis; // the splitting dimension
-kpoint split; // the splitting element
-struct kdnode *left, *right; // the left and right sub-trees
+  int axis; // the splitting dimension
+  kpoint split; // the splitting element
+  struct kdnode *left, *right; // the left and right sub-trees
 };
 
 int main(int argc, char const *argv[]) {
