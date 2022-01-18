@@ -15,8 +15,8 @@
 #else
 # define float_t double
 #endif
-// #define NDIM 2
-// #define float_t double
+#define NDIM 2
+
 // struct kpoint {
 //   int[NDIM];
 // };
