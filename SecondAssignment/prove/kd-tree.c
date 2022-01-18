@@ -18,7 +18,7 @@
 #define NDIM 2
 
 struct kpoint {
-   int[NDIM];
+   int a[NDIM];
 };
 //
 // struct kdnode {
