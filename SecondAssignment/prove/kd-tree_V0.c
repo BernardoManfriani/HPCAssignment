@@ -5,6 +5,21 @@
 #include <math.h>
 #include <omp.h>
 
+#if defined(__STDC__)
+#  if (__STDC_VERSION__ >= 199901L)
+#     define _XOPEN_SOURCE 700
+#  endif
+#endif
+#if !defined(DOUBLE_PRECISION)
+# define float_t float
+#else
+# define float_t double
+#endif
+#define NDIM 2
+
+struct kpoint {
+   float_t a[NDIM];
+};
 
 struct kdnode * build_kdtree( kpoint *points, int N, int ndim, int axis ){
   /*
