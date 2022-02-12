@@ -10,48 +10,86 @@
 #     define _XOPEN_SOURCE 700
 #  endif
 #endif
+
 #if !defined(DOUBLE_PRECISION)
 # define float_t float
 #else
 # define float_t double
 #endif
+
 #define NDIM 2
+#define TREESIZE 10
 
 struct kpoint {
-   float_t a[NDIM];
+   float_t x;
+   float_t y;
 };
 
-struct kdnode * build_kdtree( kpoint *points, int N, int ndim, int axis ){
-  /*
-  * points is a pointer to the relevant section of the data set;
-  * N is the number of points to be considered, from points to points+N
-  * ndim is the number of dimensions of the data points
-  * axis is the dimension used previsously as the splitting one
-  */
+struct kdnode {
+  int axis;                     // the splitting dimension
+  struct kpoint split;                 // the splitting element
+  struct kdnode *left, *right;  // the left and right sub-trees
+};
 
-  if( N == 1 ) {
-    return a leaf with the point *points;
+
+struct kpoint* initTree();   //Initialize the tree
+
+void printTree(struct kpoint* tree);  // naive printing of a kd-trees
+
+
+int main(int argc, char const *argv[]) {
+  struct kpoint *tree;
+  tree = initTree();
+  printTree(tree);
+
+  float_t sum1 = 0.0;
+  float_t sum2 = 0.0;
+  for (int i = 0; i < TREESIZE; i++) {
+    if(i < TREESIZE/2){
+      sum1 += tree[i].x + tree[i].y;
+    }
+    if(i >= TREESIZE/2){
+      sum2 += tree[i].x + tree[i].y;
+    }
   }
-  struct kdnode *node;
-  //
-  // ... here you should either allocate the memory for a new node
-  // like in the classical linked-list, or implement something different
-  // and more efficient in terms of tree-traversal
-  //
-  int myaxis = choose_splitting_dimension( points, ndim, axis); //
-  implement the choice for
-  // the
-  splitting dimension
-  kpoint *mypoint = choose_splitting_point( points, myaxis); // pick-up
-  the splitting point
-  struct kpoint *left_points, *right_points;
-  //
-  // ... here you individuate the left- and right- points
-  //
-  node -> axis = myaxis;
-  node -> split = *splitting_point; // here we save a data point, but it's up to you
-  // to opt to save a pointer, instead
-  node -> left = build_kdtree( left_points, N_left, ndim, myaxis );
-  node -> right = build_kdtree( right_points, N_right, ndim, myaxis );
-  return node;
+
+  printf("Prima metà %f \nSeconda metà %f\n", sum1, sum2 );
+
+
+
+  return 0;
 }
+
+
+struct kpoint* initTree(){   //Initialize the tree
+  struct kpoint point;
+  struct kpoint *tree = malloc (sizeof (struct kpoint) * TREESIZE);   //Creation of the array of kpoints.
+
+  for(int i = 0; i < TREESIZE; i++){                  //Iterate on the array [0:TREESIZE] to initialize it
+      tree[i].x= rand()/100000000.0;                  //Random generation of points normalized between 0:10
+      tree[i].y = rand()/100000000.0;
+  }
+
+  return tree;
+}
+
+void printTree(struct kpoint* tree){  //Print 2D-Tree
+  for(int i = 0; i < TREESIZE; i++){
+    printf("(%f, ",tree[i].x);
+    printf("%f)   ",tree[i].y);
+  }
+  printf("\n");
+}
+
+// struct kdnode * build_kdtree( <current data set>, int ndim, int axis )
+// {
+//   // axis is the splitting dimension from the previous call
+//   // ( may be -1 for the first call)
+//   int myaxis = (axis+1)%ndim;
+//   struct kdnode *this_node = (struct kdnode*)malloc(sizeof(struct kdnode));
+//   this_node.axis = myaxis;
+//   ...;
+//   this_node.left = build_kdtree( <left_points>, ndim, myaxis);
+//   this_node.right = build_kdtree( <right_points>, ndim, myaxis);
+//   return this_node;
+// }
